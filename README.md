@@ -6,8 +6,8 @@ Ce dépôt contient des scripts écrits dans différents langages de programmati
 
 Les scripts présents dans ce dépôt sont écrits dans les langages suivants :
 
-- **Bash**
-- **Python**
+- **![Shell](https://img.shields.io/badge/Shell-%2314354C.svg?style=flat&logo=gnu-bash&logoColor=white)**
+- **![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=flat&logo=python&logoColor=white)**
 - **Autres (selon ajout futur)**
 
 ---
