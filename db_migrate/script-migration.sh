@@ -12,7 +12,7 @@ echo "Migration started at $(date)" >> $LOG_FILE
 
 # Step 1: Backup Source Database with Compression
 echo "Starting database dump from $SOURCE_HOST" >> $LOG_FILE
-mysqldump -h $SOURCE_HOST -u $USER -p$PASSWORD osiris --single-transaction --routines --triggers --events | gzip > $DUMP_FILE
+mysqldump -h $SOURCE_HOST -u $USER -p$PASSWORD db_name --single-transaction --routines --triggers --events | gzip > $DUMP_FILE
 
 # Check if dump was successful
 if [ $? -eq 0 ]; then
